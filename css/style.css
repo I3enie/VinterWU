@@ -1,0 +1,29 @@
+#wrapper{
+    display: grid;
+    grid-template-columns: 15% 25% 60%;
+    grid-template-rows: 100px 100vh 100px;
+    grid-template-areas: 
+    "hd hd nv"
+    "as mn mn"
+    "ft ft ft";
+}
+header{
+    grid-area: hd;
+    background-color: aliceblue;
+}
+aside{
+    grid-area: as;
+    background-color: antiquewhite;
+}
+footer{
+    grid-area: ft;
+    background-color: aqua;
+}
+main{
+    grid-area: mn;
+    background-color: aquamarine;
+}
+nav{
+    grid-area: nv;
+    background-color: azure;
+}
