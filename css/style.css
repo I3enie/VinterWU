@@ -1,7 +1,7 @@
 #wrapper{
     display: grid;
     grid-template-columns: 15% 25% 60%;
-    grid-template-rows: 100px 100vh 100px;
+    grid-template-rows: 75px 100vh 100px;
     grid-template-areas: 
     "hd hd nv"
     "as mn mn"
@@ -9,7 +9,9 @@
 }
 header{
     grid-area: hd;
-    background-color: aliceblue;
+    background-color: #404240;
+    display: flex;
+    padding: 5px;
 }
 aside{
     grid-area: as;
@@ -25,5 +27,23 @@ main{
 }
 nav{
     grid-area: nv;
-    background-color: azure;
+    background-color: #404240;
+    display: flex;
+    justify-content: start;
+}
+#logo{
+align-self: center;
+}
+body{
+    margin: 0%;
+}
+#LogoText{
+    color: #2ecc71;
+    margin-left: 20px;
+    align-self: center;
+}
+#search{
+    align-self: center;
+    height: 15px;
+    margin-left: 300px;
 }
