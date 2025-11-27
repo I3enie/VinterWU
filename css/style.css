@@ -24,12 +24,13 @@ footer{
 main{
     grid-area: mn;
     background-color: aquamarine;
+    display: flex;
 }
 nav{
     grid-area: nv;
     background-color: #404240;
     display: flex;
-    justify-content: start;
+    justify-content: flex-end;
 }
 #logo{
 align-self: center;
@@ -46,4 +47,38 @@ body{
     align-self: center;
     height: 15px;
     margin-left: 300px;
+    margin-right: 10px;
 }
+#searchbar{
+    height: 15px;
+    align-self: center;
+    margin-right: 30px;
+    background-color: #404240;
+    border-radius: 25px;
+    border-style:solid;
+    border-width: 2px;
+    text-align: center;
+}
+.navtext{
+    align-self: center;
+    margin: 25px;
+    color: white;
+    text-decoration: none;
+}
+.navtext:hover{
+    color: #2ecc71;
+}
+#searchbar:hover{
+    border-color: #2ecc71;
+}
+#searchbar:focus{
+    outline-color: #2ecc71;
+    border-color: #2ecc71;
+    box-shadow: none !important;
+}
+#mainpic{
+    object-fit: cover;
+    height: 100%;
+    width:100% ;
+}
+
