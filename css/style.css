@@ -7,6 +7,15 @@
     "as mn mn"
     "ft ft ft";
 }
+#wrapper_prod{
+    display: grid;
+    grid-template-columns: 15% 25% 60%;
+    grid-template-rows: 75px 150vh 100px;
+    grid-template-areas: 
+    "hd hd nv"
+    "as mn mn"
+    "ft ft ft";
+}
 header{
     grid-area: hd;
     background-color: #404240;
@@ -89,6 +98,7 @@ body{
     height: 100%;
     width:100%;
     border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 .cards{
     display: block;
@@ -109,10 +119,7 @@ body{
     margin-top: 0px;
     color: #DCDCDC;
 }
-#bottom{
-    border-bottom-right-radius: 0px;
-}
-#bottombutton{
+.bottombutton{
     display: block;
     font-size: 300%;
     color: #404240;
@@ -127,4 +134,28 @@ body{
 .cardtext{
     color: #404240;
     text-decoration: none;
+}
+#logolink{
+    text-decoration: none;
+}
+#main_prod{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#cardprod{
+    display: flex;
+    height: auto;
+    width: 200px;
+    background-color: #DCDCDC;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+}
+.prodpics{
+    width: 200px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
