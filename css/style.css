@@ -159,3 +159,22 @@ body{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+#sort{
+    display: flex;
+    justify-content: flex-start;
+}
+.Sort_Methods{
+    color: #DCDCDC;
+    margin: 15px;
+    text-decoration:none ;
+}
+#Sort_By{
+    color: #DCDCDC;
+}
+.Sort_Methods:hover{
+    color: #2ecc71;
+}
+#Happy_Bird{
+    margin-top: 400px;
+    width: 90%;
+}
