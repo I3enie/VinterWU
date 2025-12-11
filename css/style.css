@@ -175,6 +175,43 @@ body{
     color: #2ecc71;
 }
 #Happy_Bird{
-    margin-top: 400px;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#disclaimer{
+    margin-top: 100px;
+    background-color: #DCDCDC;
     width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+
+#aboutwrap{
+    display: grid;
+    grid-template-rows:75px 75vh 75vh 100px;
+    grid-template-columns: 15% 25% 60%;
+    grid-template-areas:
+    "hd hd nv"
+    "se se se"
+    "main main main"
+    "fot fot fot"
+    ;
+}
+#section_about{
+    grid-area: se;
+    display: flex;
+    justify-content: flex-end;
+}
+#main_about{
+    grid-area: main;
+}
+#footer_about{
+    grid-area: fot;
+}
+#team_pic{
+    object-fit: cover;
 }
