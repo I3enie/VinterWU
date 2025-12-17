@@ -205,6 +205,9 @@ body{
     grid-area: se;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #404240;
 }
 #main_about{
     grid-area: main;
@@ -214,4 +217,22 @@ body{
 }
 #team_pic{
     object-fit: cover;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.facepics{
+    height: 40%;
+    object-fit: cover;
+    width: 25%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#womanface{
+    height: 60%;
+}
+.abouttext{
+    color: #DCDCDC;
+    
 }
