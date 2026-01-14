@@ -144,7 +144,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
 }
-#cardprod{
+.cardprod{
     display: flex;
     height: auto;
     width: 200px;
@@ -204,10 +204,10 @@ body{
 #section_about{
     grid-area: se;
     display: flex;
-    justify-content: flex-end;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #404240;
+    justify-content: space-between;
 }
 #main_about{
     grid-area: main;
@@ -222,7 +222,7 @@ body{
     border-bottom-left-radius: 20px;
 }
 .facepics{
-    height: 40%;
+    height: 39%;
     object-fit: cover;
     width: 25%;
     border-radius: 20px;
@@ -234,5 +234,7 @@ body{
 }
 .abouttext{
     color: #DCDCDC;
+    margin-left: 40px;
+    margin-right: 40px;
     
 }
